@@ -14,8 +14,10 @@ Webbtjänsten måste sen kunna nås från dbwebb inspect-skriptet så vi kan se 
 
 ##Kravspecifikation (product backlog)
 
-ID	Beskrivning	Prioritet	Kostnad(tid i timmar)
-F1	Inloggning/identifiering 	1	20
-F2	Funktionalitet för test (spara resultat, tidsbegränsning, slumpa fram frågor, hämta från JSON-fil)	1	30
-F4	Möjlighet att fuska sig igenom testet	2	20
-F5	Ska kunna nås från dbwebb inspect-skriptet	2	30
+| ID            | Beskrivning	| Prioritet | Kostnad(tid i timmar)
+| ------------- |-------------  | ----------| ---------------------        
+| F1            | Inloggning/identifiering | 1 | 20        
+| F2            | Funktionalitet för test (spara resultat, | 1 | 30
+                  tidsbegränsning, slumpa fram frågor, hämta från JSON-fil)            
+| F3            | Möjlighet att fuska sig igenom testet | 2 | 20
+| F4            | Ska kunna nås från dbwebb inspect-skriptet | 2 | 30
