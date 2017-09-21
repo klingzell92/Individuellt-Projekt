@@ -1,7 +1,8 @@
 Kravspecifikation och beskrivning av projekt
 =============================================
 
-##Översiktlig beskrivning utav projekt.
+Översiktlig beskrivning utav projekt.
+----------------------------------------
 En webbtjänst för att testa studenter på en mindre uppsättning frågor kopplade till ett kursmoment för att stämma av att vissa teoridelar har fastnat.
 Studenterna besvarar frågorna genom en webbplats där de identifierar sig.
 Frågorna skapas och hämtas via json.  
@@ -12,7 +13,8 @@ Gör vi 10 frågor så kan 5 slumpas fram, så studenten får delvis olika fråg
 
 Webbtjänsten måste sen kunna nås från dbwebb inspect-skriptet så vi kan se att studenten klarar denna delen.
 
-##Kravspecifikation (product backlog)
+Kravspecifikation (product backlog)
+------------------------------------
 
 | ID            | Beskrivning	| Prioritet | Kostnad(tid i timmar)
 | ------------- |-------------  | ----------| ---------------------        
