@@ -22,6 +22,6 @@ Kravspecifikation (product backlog)
 | F2            | Frågorna till testet skall hämtas ifrån en JSON-fil. | 1 | 8                             
 | F3            | Testet skall slumpa fram frågor, så att studenten får olika frågor varje gång. | 2 | 8
 | F4            | Testet skall ha en tidsbegränsning | 1 | 4
-| F5            | Resultatet ifrån varje test skall sparas | 1 | 12
+| F5            | Resultatet ifrån varje test skall sparas till en databas. Tillsammans med tid på testet, antal gånger testet är gjort samt svaren på frågorna. | 1 | 12
 | F6            | Webbtjänsten skall kunna fuska sig igenom testet. D.v.s. att alla frågor inte behöver vara besvarade. | 2 | 20
 | F7            | Webbtjänsten skall gå att nå via dbwebb inspect-skriptet | 2 | 30
