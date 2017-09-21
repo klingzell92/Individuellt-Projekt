@@ -13,15 +13,13 @@ Gör vi 10 frågor så kan 5 slumpas fram, så studenten får delvis olika fråg
 
 Webbtjänsten måste sen kunna nås från dbwebb inspect-skriptet så vi kan se att studenten klarar denna delen.
 
-Kravspecifikation (product backlog)
+Krav
 ------------------------------------
 
-| ID            | Beskrivning	| Prioritet | Kostnad(tid i timmar)
-| ------------- |-------------  | ----------| ---------------------        
-| F1            | Studenter skall kunna logga in på webbtjänsten| 1 | 20        
-| F2            | Frågorna till testet skall hämtas ifrån en JSON-fil. | 1 | 8                             
-| F3            | Testet skall slumpa fram frågor, så att studenten får olika frågor varje gång. | 2 | 8
-| F4            | Testet skall ha en tidsbegränsning | 1 | 4
-| F5            | Resultatet ifrån varje test skall sparas till en databas. Tillsammans med tid på testet, antal gånger testet är gjort samt svaren på frågorna. | 1 | 12
-| F6            | Webbtjänsten skall kunna fuska sig igenom testet. D.v.s. att alla frågor inte behöver vara besvarade. | 2 | 20
-| F7            | Webbtjänsten skall gå att nå via dbwebb inspect-skriptet | 2 | 30
+1. Studenter skall kunna logga in på webbtjänsten.       
+2. Frågorna till testet skall hämtas ifrån en JSON-fil.                            
+3. Testet skall slumpa fram frågor, så att studenten får olika frågor varje gång.
+4. Testet skall ha en tidsbegränsning.
+5. Resultatet ifrån varje test skall sparas till en databas. Tillsammans med tid på testet, antal gånger testet är gjort samt svaren på frågorna.
+6. Webbtjänsten skall kunna fuska sig igenom testet. D.v.s. att alla frågor inte behöver vara besvarade.
+7. Webbtjänsten skall gå att nå via dbwebb inspect-skriptet.
