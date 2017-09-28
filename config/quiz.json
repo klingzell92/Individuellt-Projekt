@@ -1,0 +1,6 @@
+{
+    "htmlphp": { "kmom01": {"alt1":"hej","alt2":"hej då", "correct": "alt1"},
+                "kmom02":{"alt1":"hej","alt2":"hej då", "correct": "alt2"}},
+    "python": {"kmom01": {"alt1":"hej","alt2":"hej då", "correct": "alt1"},
+                "kmom02":{"alt1":"hej","alt2":"hej då", "correct": "alt2"}}
+}
