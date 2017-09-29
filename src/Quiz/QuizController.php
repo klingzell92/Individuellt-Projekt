@@ -29,16 +29,37 @@ class QuizController implements InjectionAwareInterface
         $pageRender = $this->di->get("pageRender");
 
         $data = [
-            "content" => json_decode($json, true),
+            "content" => json_decode($json),
         ];
-        //$data = json_decode($json, true);
-        //var_dump($data);
-        //var_dump(json_last_error());
-
-        $view->add("test/test", $data);
+        $view->add("quiz/index", $data);
 
         $pageRender->renderPage(["title" => $title]);
 
+    }
+    /**
+     * Render index page
+     *
+     *
+     * @return void
+     */
+    public function showTest($course, $test)
+    {
+        $json = file_get_contents("../config/quiz.json");
+        $title      = "$course $test";
+        $view       = $this->di->get("view");
+        $pageRender = $this->di->get("pageRender");
+
+        $data = [
+            "content" => json_decode($json, true),
+            "course"  => $course,
+            "test"    => $test,
+        ];
+
+        $view->add("quiz/quiz", $data);
+
+        $pageRender->renderPage(["title" => $title]);
+
+        var_dump($course);
     }
 
 }

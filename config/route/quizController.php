@@ -7,7 +7,7 @@ return [
         [
             "info" => "Quiz Controller index.",
             "requestMethod" => null,
-            "path" => "quiz",
+            "path" => "index",
             "callable" => ["quizController", "getIndex"],
         ],
         [
@@ -15,6 +15,12 @@ return [
             "requestMethod" => "get|post",
             "path" => "login",
             "callable" => ["loginController", "getPostLogin"],
+        ],
+        [
+            "info" => "Show the test",
+            "requestMethod" => "get",
+            "path" => "quiz/{course:alphanum}/{test:alphanum}",
+            "callable" => ["quizController", "showTest"],
         ],
     ]
 ];

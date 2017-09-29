@@ -1,29 +1,29 @@
 /** A css file */
 
 body{
-  background-color: white;
-  margin: 0;
+    background-color: white;
+    margin: 0;
 }
 
 .main-wrap {
-  min-height: 60vh;
+    min-height: 60vh;
 }
 
 .main {
-  max-width: 900px;
-  margin: 0 auto;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .htmlform {
-  border: 1px solid black;
-  border-radius: 4px;
-  padding: 1em;
-  margin-top: 1em;
-  text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 1em;
+    margin-top: 1em;
+    text-align: center;
 }
 
 .htmlform fieldset {
-  border: none;
+    border: none;
 }
 
 .htmlform label {
@@ -31,11 +31,11 @@ body{
 }
 
 .input {
-  height: 2em;
-  width: 100%;
-  border: 1px solid black;
-  border-radius: 3px;
-  text-align: center;
+    height: 2em;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
 }
 
 .loginButton {
@@ -52,4 +52,8 @@ body{
     background: #e6e6e6;
 }
 
-.
+.course {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
