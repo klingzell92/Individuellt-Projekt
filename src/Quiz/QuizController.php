@@ -48,11 +48,15 @@ class QuizController implements InjectionAwareInterface
         $title      = "$course $test";
         $view       = $this->di->get("view");
         $pageRender = $this->di->get("pageRender");
+        $content = json_decode($json, true);
+        shuffle($content);
+
 
         $data = [
-            "content" => json_decode($json, true),
+            "content" => $content[$course][$test],
             "course"  => $course,
             "test"    => $test,
+            "random"  => $questions,
         ];
 
         $view->add("quiz/quiz", $data);
