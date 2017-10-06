@@ -1,24 +1,36 @@
+<?php
+$postHandler = $di->get("url")->create("quiz/result");
+ ?>
 
+<script type="text/javascript">
+window.setTimeout(function() {
+    document.forms['quiz'].submit();
+}, 30000);
+</script>
 
 <div class="main">
-<form>
+<h1><?=$course?> <?=$test?></h1>
+<form method="post" name="quiz" action="<?= $postHandler?>">
 <?php
-var_dump($random);
+
 foreach ($content as $key => $questions) {
 ?>
-<div>
+<div class="question">
 
-    <p><?= $questions["question"] ?></p>
-
-    <input type="radio" name="<?= $key ?>" value="<?= $questions["alt1"] ?>"> <?= $questions["alt1"] ?><br>
-    <input type="radio" name="<?= $key ?>" value="<?= $questions["alt2"] ?>"> <?= $questions["alt2"] ?><br>
-    <input type="radio" name="<?= $key ?>" value="<?= $questions["alt3"] ?>"> <?= $questions["alt3"] ?><br>
-    <input type="radio" name="<?= $key ?>" value="<?= $questions["alt4"] ?>"> <?= $questions["alt4"] ?>
-</div>
-
+    <h3><?= $questions["question"] ?></h3>
+<?php
+foreach ($questions["alternatives"] as $alt => $alternative) {
+ ?>
+    <input type="radio" name="<?= $key ?>" value="<?= $alternative ?>"> <?= $alternative ?><br>
 <?php
 }
 ?>
+</div>
+<?php
+}
+?>
+<input type="hidden" name="course" value="<?=$course?>">
+<input type="hidden" name="test" value="<?=$test?>">
 <input type="submit" value="Lämna in test">
 </form>
 </div>

@@ -44,26 +44,61 @@ class QuizController implements InjectionAwareInterface
      */
     public function showTest($course, $test)
     {
-        $json = file_get_contents("../config/quiz.json");
+        $quiz = $this->di->get("quiz");
         $title      = "$course $test";
         $view       = $this->di->get("view");
         $pageRender = $this->di->get("pageRender");
-        $content = json_decode($json, true);
-        shuffle($content);
-
+        $questions = $quiz->getQuestions($course, $test);
+        $random = $quiz->shuffle_questions($questions);
+        array_splice($random, 5);
 
         $data = [
-            "content" => $content[$course][$test],
+            "content" => $random,
             "course"  => $course,
             "test"    => $test,
-            "random"  => $questions,
         ];
 
+        $_SESSION['quizStart'] = time();
         $view->add("quiz/quiz", $data);
 
         $pageRender->renderPage(["title" => $title]);
-
-        var_dump($course);
     }
 
+    /**
+     * Handle submit of test
+     *
+     *
+     * @return void
+     */
+    public function handlePostQuiz()
+    {
+        $view       = $this->di->get("view");
+        $pageRender = $this->di->get("pageRender");
+
+        $quiz = $this->di->get("quiz");
+        $course = $_POST["course"];
+        unset($_POST["course"]);
+        $test = $_POST["test"];
+        unset($_POST["test"]);
+
+        $title      = "$course $test";
+        $questions = $quiz->getQuestions($course, $test);
+
+        $result = $quiz->getResult($_POST, $questions);
+
+        $_SESSION['quizEnd'] = time();
+        $time = $_SESSION['quizEnd'] - $_SESSION['quizStart'];
+        $data = [
+            "questions" => $questions,
+            "course"  => $course,
+            "test"    => $test,
+            "answers" => $_POST,
+            "result"  => $result,
+            "time"    => $time,
+        ];
+
+        $view->add("quiz/result", $data);
+
+        $pageRender->renderPage(["title" => $title]);
+    }
 }

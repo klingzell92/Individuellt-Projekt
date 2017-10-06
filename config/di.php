@@ -134,5 +134,13 @@ return [
                 return $obj;
             }
         ],
+        "quiz" => [
+            "shared" => true,
+            "callback" => function () {
+                $obj = new \Anax\Quiz\Quiz();
+                $obj->setDI($this);
+                return $obj;
+            }
+        ],
     ],
 ];
