@@ -25,6 +25,7 @@ foreach ($questions["alternatives"] as $alt => $alternative) {
 <?php
 }
 ?>
+    <input type = "radio" name="<?= $key ?>" value ="Inget svar" checked> Hoppa över
 </div>
 <?php
 }

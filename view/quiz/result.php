@@ -1,5 +1,5 @@
 <?php
-$index = $di->get("url")->create("quiz/index");
+$index = $di->get("url")->create("quiz/start");
  ?>
 
 <div class="main">

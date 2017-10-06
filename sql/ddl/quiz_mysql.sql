@@ -1,5 +1,5 @@
 --
--- Creating a small Book table.
+-- Creating a User table and inserting example users.
 -- Create a database and a user having access to this database,
 -- this must be done by hand, se commented rows on how to do it.
 --
@@ -28,11 +28,22 @@ SET NAMES utf8;
 
 
 --
--- Table Book
+-- Table User
 --
-DROP TABLE IF EXISTS Book;
-CREATE TABLE Book (
+DROP TABLE IF EXISTS Quiz;
+CREATE TABLE Quiz (
     `id` INTEGER PRIMARY KEY AUTO_INCREMENT NOT NULL,
-    `title` VARCHAR(80) NOT NULL,
-    `author` VARCHAR(80) NOT NULL
+    `acronym` VARCHAR(80) NOT NULL,
+    `course` VARCHAR(80) NOT NULL,
+    `test` VARCHAR(80) NOT NULL,
+    `result` INTEGER NOT NULL,
+    `time` INTEGER NOT NULL,
+    `times_test` INTEGER NOT NULL,
+    `answers` TEXT NOT NULL,
+    `created` DATETIME,
+    `updated` DATETIME,
+    `deleted` DATETIME,
+    `active` DATETIME 
 ) ENGINE INNODB CHARACTER SET utf8 COLLATE utf8_swedish_ci;
+
+SELECT * FROM Quiz;

@@ -7,7 +7,7 @@ return [
         [
             "info" => "Quiz Controller index.",
             "requestMethod" => null,
-            "path" => "index",
+            "path" => "start",
             "callable" => ["quizController", "getIndex"],
         ],
         [

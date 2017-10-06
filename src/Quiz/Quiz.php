@@ -2,22 +2,63 @@
 
 namespace Anax\Quiz;
 
-use \Anax\DI\InjectionAwareInterface;
-use \Anax\DI\InjectionAwareTrait;
+use \Anax\Database\ActiveRecordModel;
 
 /**
- * A controller for the Comment module
- *
- * @SuppressWarnings(PHPMD.ExitExpression)
+ * A database driven model.
  */
-class Quiz implements InjectionAwareInterface
+class Quiz extends ActiveRecordModel
 {
-    use InjectionAwareTrait;
+    /**
+     * @var string $tableName name of the database table.
+     */
+    protected $tableName = "Quiz";
 
+    /**
+     * Columns in the table.
+     *
+     * @var integer $id primary key auto incremented.
+     */
+    public $id;
+    public $acronym;
+    public $course;
+    public $test;
+    public $result;
+    public $time;
+    public $times_test;
+    public $answers;
+    public $created;
+    public $updated;
+    public $deleted;
+    public $active;
+
+
+    /**
+     * Add a comment to the session.
+     *
+     * @param string $username
+     * @param string $comment
+     * @param string $gravatar
+     *
+     * @return void
+     */
+     /*
+    public function addResult($user, $course, $test, $result, $time, $times_test, $answers)
+    {
+        $this->acronym  = $user;
+        $this->course = $course;
+        $this->test = $test;
+        $this->result = $result;
+        $this->time = $time;
+        $this->time_test = $times_test;
+
+        //$this->save();
+    }
+    */
     /*
     * Function to randomize the questions but keep the keys
     */
-    public function shuffle_questions($questions)
+    public function shuffleQuestions($questions)
     {
       if (!is_array($questions)) return $questions;
 

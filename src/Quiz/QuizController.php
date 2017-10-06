@@ -23,18 +23,22 @@ class QuizController implements InjectionAwareInterface
      */
     public function getIndex()
     {
-        $json = file_get_contents("../config/quiz.json");
-        $title      = "A index page";
-        $view       = $this->di->get("view");
-        $pageRender = $this->di->get("pageRender");
+        $session = $this->di->get("session");
+        if ($session->has("user")) {
+            $json = file_get_contents("../config/quiz.json");
+            $title      = "A index page";
+            $view       = $this->di->get("view");
+            $pageRender = $this->di->get("pageRender");
 
-        $data = [
-            "content" => json_decode($json),
-        ];
-        $view->add("quiz/index", $data);
+            $data = [
+                "content" => json_decode($json),
+            ];
+            $view->add("quiz/index", $data);
 
-        $pageRender->renderPage(["title" => $title]);
-
+            $pageRender->renderPage(["title" => $title]);
+        } else {
+            $this->di->get("response")->redirect("login");
+        }
     }
     /**
      * Render index page
@@ -44,24 +48,30 @@ class QuizController implements InjectionAwareInterface
      */
     public function showTest($course, $test)
     {
-        $quiz = $this->di->get("quiz");
-        $title      = "$course $test";
-        $view       = $this->di->get("view");
-        $pageRender = $this->di->get("pageRender");
-        $questions = $quiz->getQuestions($course, $test);
-        $random = $quiz->shuffle_questions($questions);
-        array_splice($random, 5);
+        $session = $this->di->get("session");
+        if ($session->has("user")) {
+            $quiz = new Quiz();
+            $quiz->setDb($this->di->get("db"));
+            $title      = "$course $test";
+            $view       = $this->di->get("view");
+            $pageRender = $this->di->get("pageRender");
+            $questions = $quiz->getQuestions($course, $test);
+            $random = $quiz->shuffleQuestions($questions);
+            array_splice($random, 5);
 
-        $data = [
-            "content" => $random,
-            "course"  => $course,
-            "test"    => $test,
-        ];
+            $data = [
+                "content" => $random,
+                "course"  => $course,
+                "test"    => $test,
+            ];
 
-        $_SESSION['quizStart'] = time();
-        $view->add("quiz/quiz", $data);
+            $_SESSION['quizStart'] = time();
+            $view->add("quiz/quiz", $data);
 
-        $pageRender->renderPage(["title" => $title]);
+            $pageRender->renderPage(["title" => $title]);
+        } else {
+            $this->di->get("response")->redirect("login");
+        }
     }
 
     /**
@@ -72,33 +82,42 @@ class QuizController implements InjectionAwareInterface
      */
     public function handlePostQuiz()
     {
-        $view       = $this->di->get("view");
-        $pageRender = $this->di->get("pageRender");
+        $session = $this->di->get("session");
+        if ($session->has("user")) {
+            $view       = $this->di->get("view");
+            $pageRender = $this->di->get("pageRender");
+            $quiz = new Quiz();
+            $quiz->setDb($this->di->get("db"));
 
-        $quiz = $this->di->get("quiz");
-        $course = $_POST["course"];
-        unset($_POST["course"]);
-        $test = $_POST["test"];
-        unset($_POST["test"]);
 
-        $title      = "$course $test";
-        $questions = $quiz->getQuestions($course, $test);
+            $course = $_POST["course"];
+            unset($_POST["course"]);
+            $test = $_POST["test"];
+            unset($_POST["test"]);
+            $user = $session->get("user");
+            $title      = "$course $test";
+            $questions = $quiz->getQuestions($course, $test);
 
-        $result = $quiz->getResult($_POST, $questions);
+            $result = $quiz->getResult($_POST, $questions);
 
-        $_SESSION['quizEnd'] = time();
-        $time = $_SESSION['quizEnd'] - $_SESSION['quizStart'];
-        $data = [
-            "questions" => $questions,
-            "course"  => $course,
-            "test"    => $test,
-            "answers" => $_POST,
-            "result"  => $result,
-            "time"    => $time,
-        ];
+            $_SESSION['quizEnd'] = time();
+            $time = $_SESSION['quizEnd'] - $_SESSION['quizStart'];
 
-        $view->add("quiz/result", $data);
+            //$quiz->addResult($user, $course, $test, $result, $time, 1, $_POST)
+            $data = [
+                "questions" => $questions,
+                "course"  => $course,
+                "test"    => $test,
+                "answers" => $_POST,
+                "result"  => $result,
+                "time"    => $time,
+            ];
 
-        $pageRender->renderPage(["title" => $title]);
+            $view->add("quiz/result", $data);
+
+            $pageRender->renderPage(["title" => $title]);
+        } else {
+            $this->di->get("response")->redirect("login");
+        }
     }
 }

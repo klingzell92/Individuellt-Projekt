@@ -76,7 +76,7 @@ class LoginForm extends FormModel
 
         //$this->form->addOutput("User " . $login->acronym . " logged in.");
         $this->di->get("session")->set("user", $acronym);
-        $this->di->get("response")->redirect("quiz/index");
+        $this->di->get("response")->redirect("quiz/start");
         return true;
     }
 }

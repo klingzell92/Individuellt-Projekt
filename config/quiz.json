@@ -94,3870 +94,4340 @@
 		},
 		"kmom02": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom03": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom04": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom05": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom06": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		}
 	},
 	"python": {
 		"kmom01": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom02": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom03": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom04": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom05": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom06": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		}
 	},
 	"javascript1": {
 		"kmom01": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom02": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom03": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom04": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom05": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom06": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		}
 	},
 	"design": {
 		"kmom01": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom02": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom03": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom04": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom05": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom06": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		}
 	},
 	"linux": {
 		"kmom01": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom02": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom03": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom04": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom05": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom06": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		}
 	},
 	"oopython": {
 		"kmom01": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom02": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom03": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom04": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom05": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom06": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		}
 	},
 	"webapp": {
 		"kmom01": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom02": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom03": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom04": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom05": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom06": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		}
 	},
 	"oophp": {
 		"kmom01": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom02": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom03": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom04": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom05": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		},
 		"kmom06": {
 			"q1": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga1",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q2": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga2",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q3": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga3",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q4": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga4",
+				"correct": "Svar 4",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt4": "Svar 4"
+				}
 			},
 			"q5": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga5",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q6": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga6",
+				"correct": "Svar 1",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q7": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga7",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			},
 			"q8": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga8",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2"
+				}
 			},
 			"q9": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga9",
+				"correct": "Svar 3",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3"
+				}
 			},
 			"q10": {
-				"question": "Här kommer en jättebra fråga",
-				"alt1": "Svar 1",
-				"alt2": "Svar 2",
-				"alt3": "Svar 3",
-				"alt4": "Svar 4",
-				"correct": "alt1"
+				"question": "Här kommer en jättebra fråga10",
+				"correct": "Svar 2",
+				"alternatives": {
+					"alt1": "Svar 1",
+					"alt2": "Svar 2",
+					"alt3": "Svar 3",
+					"alt4": "Svar 4"
+				}
 			}
 		}
 	}
