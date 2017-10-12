@@ -55,20 +55,28 @@ class QuizController implements InjectionAwareInterface
             $title      = "$course $test";
             $view       = $this->di->get("view");
             $pageRender = $this->di->get("pageRender");
-            $questions = $quiz->getQuestions($course, $test);
-            $random = $quiz->shuffleQuestions($questions);
-            array_splice($random, 5);
+
+
+            $session->set("quizStart", time());
+            if (!$session->has("quizCountTo")) {
+                $session->set("quizCountTo", strtotime("+5 minutes"));
+
+                $questions = $quiz->getQuestions($course, $test);
+                $random = $quiz->shuffleQuestions($questions);
+                array_splice($random, 5);
+                $session->set("questions", $random);
+            }
 
             $data = [
-                "content" => $random,
                 "course"  => $course,
                 "test"    => $test,
             ];
 
-            $_SESSION['quizStart'] = time();
+
             $view->add("quiz/quiz", $data);
 
             $pageRender->renderPage(["title" => $title]);
+
         } else {
             $this->di->get("response")->redirect("login");
         }
@@ -99,9 +107,12 @@ class QuizController implements InjectionAwareInterface
             $questions = $quiz->getQuestions($course, $test);
 
             $result = $quiz->getResult($_POST, $questions);
-
-            $_SESSION['quizEnd'] = time();
-            $time = $_SESSION['quizEnd'] - $_SESSION['quizStart'];
+            $session->delete("quizCountTo");
+            $session->set("quizEnd", time());
+            $seconds = $session->get("quizEnd") - $session->get("quizStart");
+            $session->delete("quizStart");
+            $session->delete("quizEnd");
+            $time = $quiz->convert($seconds);
 
             //$quiz->addResult($user, $course, $test, $result, $time, 1, $_POST)
             $data = [

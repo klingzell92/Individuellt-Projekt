@@ -82,6 +82,10 @@ class Quiz extends ActiveRecordModel
         return $questions;
     }
 
+
+    /*
+    * Function to get the result
+    */
     public function getResult($answers, $questions)
     {
         $score = 0;
@@ -92,5 +96,16 @@ class Quiz extends ActiveRecordModel
         }
         return $score;
     }
+
+    /**
+    * Function for converting seconds into minutes:seconds
+    * @return string
+    */
+    function convert($iSeconds)
+    {
+        $min = intval($iSeconds / 60);
+        return $min . ':' . str_pad(($iSeconds % 60), 2, '0', STR_PAD_LEFT);
+    }
+
 
 }
