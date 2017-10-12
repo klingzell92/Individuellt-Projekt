@@ -22,5 +22,11 @@ return [
             "path" => "result",
             "callable" => ["quizController", "handlePostQuiz"],
         ],
+        [
+            "info" => "Show the next question in a quiz",
+            "requestMethod" => "post",
+            "path" => "next",
+            "callable" => ["quizController", "incrementQuiz"],
+        ],
     ]
 ];

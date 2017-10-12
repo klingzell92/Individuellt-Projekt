@@ -1,7 +1,11 @@
 <?php
+$session = $di->get("session");
 $postHandler = $di->get("url")->create("quiz/result");
-$countTo = $di->get("session")->get("quizCountTo");
-$content = $di->get("session")->get("questions");
+$countTo = $session->get("quizCountTo");
+$content = $session->get("questions");
+$pagination = $session->get("pagination");
+$page = $session->get("page");
+$next = $di->get("url")->create("quiz/next");
  ?>
 
 <script type="text/javascript">
@@ -30,7 +34,8 @@ var x = setInterval(function() {
   // If the count down is finished, submit the form
   if (distance < 2) {
     clearInterval(x);
-    document.forms['quiz'].submit();
+    //document.forms['quiz'].submit();
+    document.getElementById("demo").innerHTML = "Tiden är slut";
   }
 }, 10);
 </script>
@@ -39,29 +44,31 @@ var x = setInterval(function() {
 <h1><?=$course?> <?=$test?></h1>
 
 <p id="demo">5:00</p>
-
+<?php
+if ($page < 4) {
+?>
+<form method="post" name="quiz" action="<?= $next?>">
+<?php
+} else {
+?>
 <form method="post" name="quiz" action="<?= $postHandler?>">
 <?php
-
-foreach ($content as $key => $questions) {
+}
 ?>
 <div class="question">
 
-    <h3><?= $questions["question"] ?></h3>
+    <h3><?= $content[$pagination[$page]]["question"] ?></h3>
 <?php
-foreach ($questions["alternatives"] as $alt => $alternative) {
+foreach ($content[$pagination[$page]]["alternatives"] as $alt => $alternative) {
  ?>
-    <input type="radio" name="<?= $key ?>" value="<?= $alternative ?>"> <?= $alternative ?><br>
+    <input type="radio" name="<?= $pagination[$page] ?>" value="<?= $alternative ?>"> <?= $alternative ?><br>
 <?php
 }
 ?>
-    <input type = "radio" name="<?= $key ?>" value ="Inget svar" checked> Hoppa över
+    <input type = "radio" name="<?= $pagination[$page] ?>" value ="Inget svar" checked> Hoppa över<br>
+    <input type="hidden" name="course" value="<?=$course?>">
+    <input type="hidden" name="test" value="<?=$test?>">
+    <input type="submit" value="Nästa">
 </div>
-<?php
-}
-?>
-<input type="hidden" name="course" value="<?=$course?>">
-<input type="hidden" name="test" value="<?=$test?>">
-<input type="submit" value="Lämna in test">
 </form>
 </div>
