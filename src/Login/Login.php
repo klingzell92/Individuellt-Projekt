@@ -42,4 +42,4 @@ class Login extends ActiveRecordModel
         $this->find("acronym", $acronym);
         return password_verify($password, $this->password);
     }
-}    
+}

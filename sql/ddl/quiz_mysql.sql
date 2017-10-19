@@ -11,7 +11,7 @@
 --
 -- DROP DATABASE anaxdb;
 -- CREATE DATABASE IF NOT EXISTS anaxdb;
-USE anaxdb;
+USE phkl16;
 
 
 
@@ -37,8 +37,9 @@ CREATE TABLE Quiz (
     `course` VARCHAR(80) NOT NULL,
     `test` VARCHAR(80) NOT NULL,
     `result` INTEGER NOT NULL,
-    `time` INTEGER NOT NULL,
-    `times_test` INTEGER NOT NULL,
+    `time` VARCHAR(4) NOT NULL,
+    `times_test_done` INTEGER NOT NULL,
+    `questions` TEXT NOT NULL,
     `answers` TEXT NOT NULL,
     `created` DATETIME,
     `updated` DATETIME,

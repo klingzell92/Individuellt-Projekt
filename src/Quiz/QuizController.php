@@ -52,31 +52,50 @@ class QuizController implements InjectionAwareInterface
         if ($session->has("user")) {
             $quiz = new Quiz();
             $quiz->setDb($this->di->get("db"));
+            $timesTestDone = 0;
+            $user = $session->get("user");
+            $result = $quiz->findAllWhere("acronym = ? and course = ? and test = ?", [$user, $course, $test]);
+            $lastResult = end($result);
+
+            if ($result) {
+                $timesTestDone = $lastResult->times_test_done;
+            }
+
             $title      = "$course $test";
             $view       = $this->di->get("view");
             $pageRender = $this->di->get("pageRender");
 
-            $session->set("quizStart", time());
-            if (!$session->has("quizCountTo")) {
-                $session->set("quizCountTo", strtotime("+5 minutes"));
+            if ($timesTestDone < 2) {
+                if (!$session->has("quizCountTo")) {
+                    $session->set("quizStart", time());
+                    $session->set("quizCountTo", strtotime("+30 seconds"));
 
-                $questions = $quiz->getQuestions($course, $test);
-                $random = $quiz->shuffleQuestions($questions);
-                array_splice($random, 5);
-                $session->set("questions", $random);
-                $session->set("pagination", array_keys($random));
-                $session->set("page", 0);
+                    $questions = $quiz->getQuestions($course, $test);
+                    $random = $quiz->shuffleQuestions($questions);
+                    array_splice($random, 5);
+                    $session->set("questions", $random);
+                    $session->set("pagination", array_keys($random));
+                    $session->set("page", 0);
+                }
+
+                $data = [
+                    "course"  => $course,
+                    "test"    => $test,
+                ];
+
+                $view->add("quiz/quiz", $data);
+
+                $pageRender->renderPage(["title" => $title]);
+            } else {
+                $data = [
+                    "course"  => $course,
+                    "test"    => $test,
+                ];
+
+                $view->add("quiz/stop", $data);
+
+                $pageRender->renderPage(["title" => $title]);
             }
-
-            $data = [
-                "course"  => $course,
-                "test"    => $test,
-            ];
-
-            $view->add("quiz/quiz", $data);
-
-            $pageRender->renderPage(["title" => $title]);
-
         } else {
             $this->di->get("response")->redirect("login");
         }
@@ -93,7 +112,6 @@ class QuizController implements InjectionAwareInterface
         $session = $this->di->get("session");
         if ($session->has("user")) {
             $currentPage = $session->get("page");
-            $session->set("page", $currentPage + 1);
 
             $course = $_POST["course"];
             unset($_POST["course"]);
@@ -101,11 +119,39 @@ class QuizController implements InjectionAwareInterface
             unset($_POST["test"]);
             if (!$session->has("answers")) {
                 $session->set("answers", $_POST);
-                var_dump($session->get("answers"));
+                //var_dump($session->get("answers"));
             } else {
                 $this->addAnswer($_POST);
-                var_dump($session->get("answers"));
+                //var_dump($session->get("answers"));
             }
+
+            if ($currentPage < 4) {
+                $session->set("page", $currentPage + 1);
+                $this->showTest($course, $test);
+            } else {
+                $session->set("page", $currentPage + 1);
+                $this->showAnswers($course, $test);
+            }
+        } else {
+            $this->di->get("response")->redirect("login");
+        }
+    }
+
+    /**
+     * Show next question in quiz
+     *
+     *
+     * @return void
+     */
+    public function decrementQuiz($course, $test)
+    {
+        $session = $this->di->get("session");
+        if ($session->has("user")) {
+            $currentPage = $session->get("page");
+            if ($currentPage > 0) {
+                $session->set("page", $currentPage - 1);
+            }
+
             $this->showTest($course, $test);
         } else {
             $this->di->get("response")->redirect("login");
@@ -121,6 +167,7 @@ class QuizController implements InjectionAwareInterface
     public function handlePostQuiz()
     {
         $session = $this->di->get("session");
+        $db = $this->di->get("db");
         if ($session->has("user")) {
             $view       = $this->di->get("view");
             $pageRender = $this->di->get("pageRender");
@@ -134,8 +181,9 @@ class QuizController implements InjectionAwareInterface
             unset($_POST["test"]);
             $user = $session->get("user");
             $questions = $quiz->getQuestions($course, $test);
-
-            $this->addAnswer($_POST);
+            if ($_POST) {
+                $this->addAnswer($_POST);
+            }
             $answers = $session->get("answers");
             $session->delete("answers");
 
@@ -146,28 +194,62 @@ class QuizController implements InjectionAwareInterface
             $session->delete("quizStart");
             $session->delete("quizEnd");
             $time = $quiz->convert($seconds);
-            $this->showResult($questions, $course, $test, $answers, $result, $time);
-            //$quiz->addResult($user, $course, $test, $result, $time, 1, $_POST)
+            $quiz->addResult($user, $course, $test, $result, $time, $answers, $questions);
+            //$this->showResult($user, $course, $test);
+            $this->di->get("response")->redirect("quiz/result/$user/$course/$test");
         } else {
             $this->di->get("response")->redirect("login");
         }
     }
 
-    public function showResult($questions, $course, $test, $answers, $result, $time)
+    public function showAnswers($course, $test)
     {
         $session = $this->di->get("session");
         if ($session->has("user")) {
+            $quiz = new Quiz();
+            $quiz->setDb($this->di->get("db"));
             $view       = $this->di->get("view");
             $pageRender = $this->di->get("pageRender");
             $title      = "$course $test";
+            $answers = $session->get("answers");
+            $questions = $quiz->getQuestions($course, $test);
+
 
             $data = [
                 "questions" => $questions,
                 "course"  => $course,
                 "test"    => $test,
                 "answers" => $answers,
-                "result"  => $result,
-                "time"    => $time,
+            ];
+
+            $view->add("quiz/show", $data);
+
+            $pageRender->renderPage(["title" => $title]);
+        } else {
+            $this->di->get("response")->redirect("login");
+        }
+    }
+
+    public function showResult($user, $course, $test)
+    {
+        $session = $this->di->get("session");
+        if ($session->has("user")) {
+            $quiz = new Quiz();
+            $quiz->setDb($this->di->get("db"));
+            $result = $quiz->findAllWhere("acronym = ? and course = ? and test = ?", [$user, $course, $test]);
+            $lastResult = end($result);
+            //var_dump($result);
+
+            $view       = $this->di->get("view");
+            $pageRender = $this->di->get("pageRender");
+            $title      = "$course $test";
+            $data = [
+                "questions" => explode(", ", $lastResult->questions),
+                "course"  => $course,
+                "test"    => $test,
+                "answers" => explode(", ", $lastResult->answers),
+                "result"  => $lastResult->result,
+                "time"    => $lastResult->time,
             ];
 
             $view->add("quiz/result", $data);
@@ -191,5 +273,4 @@ class QuizController implements InjectionAwareInterface
         $answers[$key[0]] = $answer[$key[0]];
         $session->set("answers", $answers);
     }
-
 }

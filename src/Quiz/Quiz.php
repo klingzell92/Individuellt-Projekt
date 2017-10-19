@@ -25,7 +25,8 @@ class Quiz extends ActiveRecordModel
     public $test;
     public $result;
     public $time;
-    public $times_test;
+    public $times_test_done;
+    public $questions;
     public $answers;
     public $created;
     public $updated;
@@ -36,39 +37,62 @@ class Quiz extends ActiveRecordModel
     /**
      * Add a comment to the session.
      *
-     * @param string $username
-     * @param string $comment
-     * @param string $gravatar
+     * @param string $user
+     * @param string $course
+     * @param string $test
+     * @param string $result
+     * @param string $time
+     * @param string $time_test_done
+     * @param string $answers
      *
      * @return void
      */
-     /*
-    public function addResult($user, $course, $test, $result, $time, $times_test, $answers)
+
+    public function addResult($user, $course, $test, $result, $time, $answers, $questions)
     {
+        // Needs to be first if there is a result, so all previous values can be replaced
+        $quizColumn = $this->findAllWhere("acronym = ? and course = ? and test = ?", [$user, $course, $test]);
+        $lastColumn = end($quizColumn);
         $this->acronym  = $user;
         $this->course = $course;
         $this->test = $test;
         $this->result = $result;
         $this->time = $time;
-        $this->time_test = $times_test;
+        $this->times_test_done = 1;
+        if ($quizColumn) {
+            $this->id = null;
+            $this->times_test_done = $lastColumn->times_test_done + 1;
+        } else {
+            //var_dump($course);
+            $this->times_test_done = 1;
+        }
 
-        //$this->save();
+        $newAnswers = "";
+        $newQuestions = "";
+        foreach ($answers as $key => $answer) {
+            $newAnswers .= $answer . ", ";
+            $newQuestions .= $questions[$key]["question"] . ", ";
+        }
+
+        $this->answers = $newAnswers;
+        $this->questions = $newQuestions;
+        $this->save();
     }
-    */
+
     /*
     * Function to randomize the questions but keep the keys
     */
     public function shuffleQuestions($questions)
     {
-      if (!is_array($questions)) return $questions;
+        if (!is_array($questions)) return $questions;
 
-      $keys = array_keys($questions);
-      shuffle($keys);
-      $random = array();
-      foreach ($keys as $key) {
-        $random[$key] = $questions[$key];
-      }
-      return $random;
+        $keys = array_keys($questions);
+        shuffle($keys);
+        $random = array();
+        foreach ($keys as $key) {
+            $random[$key] = $questions[$key];
+        }
+        return $random;
     }
 
     /*

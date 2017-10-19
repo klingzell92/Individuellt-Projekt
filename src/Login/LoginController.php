@@ -79,5 +79,4 @@ class LoginController implements
 
         $pageRender->renderPage(["title" => $title]);
     }
-
 }

@@ -1,11 +1,13 @@
 <?php
 $session = $di->get("session");
-$postHandler = $di->get("url")->create("quiz/result");
+$postHandler = $di->get("url")->create("quiz/handle");
 $countTo = $session->get("quizCountTo");
 $content = $session->get("questions");
 $pagination = $session->get("pagination");
 $page = $session->get("page");
 $next = $di->get("url")->create("quiz/next");
+$previous = $di->get("url")->create("quiz/previous");
+
  ?>
 
 <script type="text/javascript">
@@ -29,13 +31,13 @@ var x = setInterval(function() {
       seconds = "0" + seconds;
   }
   // Display the result in the element with id="time"
-  document.getElementById("demo").innerHTML = minutes + ":" + seconds;
+  document.getElementById("time").innerHTML = minutes + ":" + seconds;
 
   // If the count down is finished, submit the form
   if (distance < 2) {
     clearInterval(x);
-    //document.forms['quiz'].submit();
-    document.getElementById("demo").innerHTML = "Tiden är slut";
+    document.getElementById("quiz").action = "<?php echo $postHandler;?>";
+    document.forms['quiz'].submit();
   }
 }, 10);
 </script>
@@ -43,32 +45,52 @@ var x = setInterval(function() {
 <div class="main">
 <h1><?=$course?> <?=$test?></h1>
 
-<p id="demo">5:00</p>
-<?php
-if ($page < 4) {
-?>
-<form method="post" name="quiz" action="<?= $next?>">
-<?php
-} else {
-?>
-<form method="post" name="quiz" action="<?= $postHandler?>">
-<?php
-}
-?>
+<p class="quizTime" id="time">5:00</p>
+<form method="post" name="quiz" action="<?= $next?>" id="quiz">
+
 <div class="question">
 
     <h3><?= $content[$pagination[$page]]["question"] ?></h3>
 <?php
 foreach ($content[$pagination[$page]]["alternatives"] as $alt => $alternative) {
  ?>
+ <?php
+if ($session->has("answers") && array_key_exists($pagination[$page], $session->get("answers")) && $session->get("answers")[$pagination[$page]] == $alternative) {
+?>
+    <input type="radio" name="<?= $pagination[$page] ?>" value="<?= $alternative ?>" checked> <?= $alternative ?><br>
+<?php
+} else {
+ ?>
     <input type="radio" name="<?= $pagination[$page] ?>" value="<?= $alternative ?>"> <?= $alternative ?><br>
 <?php
 }
+}
+if (!$session->has("answers") || !array_key_exists($pagination[$page], $session->get("answers"))) {
 ?>
-    <input type = "radio" name="<?= $pagination[$page] ?>" value ="Inget svar" checked> Hoppa över<br>
+<div class="default">
+    <input type="radio" name="<?= $pagination[$page] ?>" value="Inget svar" checked>
+</div>
+<?php
+}
+?>
     <input type="hidden" name="course" value="<?=$course?>">
     <input type="hidden" name="test" value="<?=$test?>">
-    <input type="submit" value="Nästa">
+<?php
+if ($page < 4) {
+?>
+    <input class="right navButton" type="submit" value="Nästa">
+<?php
+} else {
+?>
+    <input class="right navButton" type="submit" value="Lämna in test">
+<?php
+}
+if ($page > 0) {
+?>
+    <a href="<?=$previous?>/<?=$course?>/<?=$test?>" class="left navButton" > Tillbaka </a>
+<?php
+}
+?>
 </div>
 </form>
 </div>

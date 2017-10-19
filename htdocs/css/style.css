@@ -12,6 +12,7 @@ body{
 .main {
     max-width: 900px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .htmlform {
@@ -38,7 +39,7 @@ body{
     text-align: center;
 }
 
-.loginButton {
+.button {
     width: 100%;
     background-color: white;
     border: 1px solid;
@@ -48,14 +49,24 @@ body{
     color: black;
 }
 
-.loginButton:hover {
+.button:hover {
     background: #e6e6e6;
 }
 
 .course {
-    width: 50%;
+    width: 25%;
     display: inline-block;
     text-align: center;
+}
+
+.test {
+    text-decoration: none;
+    color: grey;
+    display: grid;
+}
+
+.test:hover {
+    text-decoration: underline;
 }
 
 .result {
@@ -63,6 +74,7 @@ body{
     border-radius: 1em;
     padding: 1em;
     text-align: center;
+    min-height: 30em;
 }
 
 .question {
@@ -72,4 +84,39 @@ body{
     text-align: center;
     margin: 2em;
     height: 14em;
+}
+
+.left {
+    float: left;
+    margin-left: 1.5em;
+}
+
+.right {
+    float: right;
+    margin-right: 1.5em;
+}
+
+.default {
+    visibility: hidden;
+}
+
+.navButton {
+    width: 20%;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.navButton:hover {
+    background: #e6e6e6;
+}
+
+.quizTime{
+    font: 20px arial;
+    font-weight: bold;
+    color: #009999;
+    text-align: center;
 }

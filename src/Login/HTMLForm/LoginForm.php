@@ -43,7 +43,7 @@ class LoginForm extends FormModel
                 "submit" => [
                     "type" => "submit",
                     "value" => "Logga in",
-                    "class" => "loginButton",
+                    "class" => "button",
                     "callback" => [$this, "callbackSubmit"]
                 ],
             ]
@@ -69,9 +69,9 @@ class LoginForm extends FormModel
         $res = $login->verifyPassword($acronym, $password);
 
         if (!$res) {
-           $this->form->rememberValues();
-           $this->form->addOutput("User or password did not match.");
-           return false;
+            $this->form->rememberValues();
+            $this->form->addOutput("User or password did not match.");
+            return false;
         }
 
         //$this->form->addOutput("User " . $login->acronym . " logged in.");

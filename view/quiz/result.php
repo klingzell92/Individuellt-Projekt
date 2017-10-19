@@ -9,7 +9,7 @@ $index = $di->get("url")->create("quiz/start");
 <?php
 foreach ($answers as $key => $answer) {
 ?>
-        <h4><?=$questions[$key]["question"]?></h4>
+        <h4><?=$questions[$key]?></h4>
         <p><?=$answer?></p>
 <?php
 }
