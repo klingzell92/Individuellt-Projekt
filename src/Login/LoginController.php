@@ -18,21 +18,8 @@ class LoginController implements
     use ConfigureTrait,
         InjectionAwareTrait;
 
-
-
     /**
-     * @var $data description
-     */
-    //private $data;
-
-
-
-    /**
-     * Description.
-     *
-     * @param datatype $variable Description
-     *
-     * @throws Exception
+     * Returns an index page
      *
      * @return void
      */
@@ -54,11 +41,7 @@ class LoginController implements
 
 
     /**
-     * Description.
-     *
-     * @param datatype $variable Description
-     *
-     * @throws Exception
+     * Returns the login form and handles login.
      *
      * @return void
      */
@@ -78,5 +61,17 @@ class LoginController implements
         $view->add("login/login", $data);
 
         $pageRender->renderPage(["title" => $title]);
+    }
+
+
+    /**
+    * Logout user
+    *
+    * @return void
+    */
+    public function logOutUser()
+    {
+        $this->di->get("session")->destroy();
+        $this->di->get("response")->redirect("login");
     }
 }

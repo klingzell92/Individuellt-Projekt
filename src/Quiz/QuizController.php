@@ -4,6 +4,8 @@ namespace Anax\Quiz;
 
 use \Anax\DI\InjectionAwareInterface;
 use \Anax\DI\InjectionAwareTrait;
+use \Anax\Configure\ConfigureInterface;
+use \Anax\Configure\ConfigureTrait;
 use \Anax\Quiz\Quiz;
 
 /**
@@ -14,6 +16,7 @@ use \Anax\Quiz\Quiz;
 class QuizController implements InjectionAwareInterface
 {
     use InjectionAwareTrait;
+    use ConfigureTrait;
 
     /**
      * Render index page
@@ -29,7 +32,6 @@ class QuizController implements InjectionAwareInterface
             $title      = "A index page";
             $view       = $this->di->get("view");
             $pageRender = $this->di->get("pageRender");
-
             $data = [
                 "content" => json_decode($json),
             ];
@@ -65,10 +67,10 @@ class QuizController implements InjectionAwareInterface
             $view       = $this->di->get("view");
             $pageRender = $this->di->get("pageRender");
 
-            if ($timesTestDone < 2) {
+            if ($timesTestDone < $this->config["maxTest"]) {
                 if (!$session->has("quizCountTo")) {
                     $session->set("quizStart", time());
-                    $session->set("quizCountTo", strtotime("+30 seconds"));
+                    $session->set("quizCountTo", strtotime($this->config["maxTimeTest"]));
 
                     $questions = $quiz->getQuestions($course, $test);
                     $random = $quiz->shuffleQuestions($questions);
@@ -195,7 +197,6 @@ class QuizController implements InjectionAwareInterface
             $session->delete("quizEnd");
             $time = $quiz->convert($seconds);
             $quiz->addResult($user, $course, $test, $result, $time, $answers, $questions);
-            //$this->showResult($user, $course, $test);
             $this->di->get("response")->redirect("quiz/result/$user/$course/$test");
         } else {
             $this->di->get("response")->redirect("login");

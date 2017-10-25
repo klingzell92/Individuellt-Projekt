@@ -36,8 +36,8 @@ var x = setInterval(function() {
   // If the count down is finished, submit the form
   if (distance < 2) {
     clearInterval(x);
-    document.getElementById("quiz").action = "<?php echo $postHandler;?>";
-    document.forms['quiz'].submit();
+    //document.getElementById("quiz").action = "<?php echo $postHandler;?>";
+    //document.forms['quiz'].submit();
   }
 }, 10);
 </script>
@@ -51,20 +51,31 @@ var x = setInterval(function() {
 <div class="question">
 
     <h3><?= $content[$pagination[$page]]["question"] ?></h3>
+    <ul>
 <?php
 foreach ($content[$pagination[$page]]["alternatives"] as $alt => $alternative) {
  ?>
  <?php
 if ($session->has("answers") && array_key_exists($pagination[$page], $session->get("answers")) && $session->get("answers")[$pagination[$page]] == $alternative) {
 ?>
-    <input type="radio" name="<?= $pagination[$page] ?>" value="<?= $alternative ?>" checked> <?= $alternative ?><br>
+    <li>
+        <input type="radio" name="<?= $pagination[$page] ?>" id="<?= $alternative ?>" value="<?= $alternative ?>" checked>
+        <label for="<?= $alternative ?>"><?= $alternative ?></label>
+        <div class="check"><div class="inside"></div></div>
+    </li>
 <?php
 } else {
  ?>
-    <input type="radio" name="<?= $pagination[$page] ?>" value="<?= $alternative ?>"> <?= $alternative ?><br>
+    <li>
+        <input type="radio" name="<?= $pagination[$page] ?>" id="<?= $alternative ?>" value="<?= $alternative ?>">
+        <label for="<?= $alternative ?>"><?= $alternative ?></label>
+        <div class="check"><div class="inside"></div></div>
+    </li>
 <?php
 }
-}
+}?>
+</ul>
+<?php
 if (!$session->has("answers") || !array_key_exists($pagination[$page], $session->get("answers"))) {
 ?>
 <div class="default">

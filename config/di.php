@@ -131,6 +131,23 @@ return [
             "callback" => function () {
                 $obj = new \Anax\Quiz\QuizController();
                 $obj->setDI($this);
+                $obj->configure("quizSettings.php");
+                return $obj;
+            }
+        ],
+        "quizServerController" => [
+            "shared" => true,
+            "callback" => function () {
+                $obj = new \Anax\QuizServer\QuizServerController();
+                $obj->setDI($this);
+                return $obj;
+            }
+        ],
+        "quizServer" => [
+            "shared" => true,
+            "callback" => function () {
+                $obj = new \Anax\QuizServer\QuizServer();
+                $obj->setDI($this);
                 return $obj;
             }
         ],

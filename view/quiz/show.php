@@ -41,17 +41,20 @@ $previous = $di->get("url")->create("quiz/previous");
     <h1><?=$course?> <?=$test?></h1>
     <p class="quizTime" id="time">5:00</p>
     <form action="<?=$postHandler?>" name="quiz" method="post">
-        <div class="result">
+        <div class="show">
             <h3>Dina svar för <?=$course?> <?=$test?> är:</h3>
-
+                <ul>
 <?php
 foreach ($answers as $key => $answer) {
 ?>
-            <h4><?=$questions[$key]["question"]?></h4>
-            <p><?=$answer?></p>
+            <li>
+                <h4><?=$questions[$key]["question"]?></h4>
+                <p><?=$answer?></p>
+            </li>
 <?php
 }
 ?>
+                </ul>
             <input type="hidden" name="course" value="<?=$course?>">
             <input type="hidden" name="test" value="<?=$test?>">
 

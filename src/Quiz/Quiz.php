@@ -35,7 +35,7 @@ class Quiz extends ActiveRecordModel
 
 
     /**
-     * Add a comment to the session.
+     * Add a result
      *
      * @param string $user
      * @param string $course
@@ -44,6 +44,7 @@ class Quiz extends ActiveRecordModel
      * @param string $time
      * @param string $time_test_done
      * @param string $answers
+     * @param string $questions
      *
      * @return void
      */
@@ -67,20 +68,22 @@ class Quiz extends ActiveRecordModel
             $this->times_test_done = 1;
         }
 
-        $newAnswers = "";
-        $newQuestions = "";
+        $newQuestions = [];
         foreach ($answers as $key => $answer) {
-            $newAnswers .= $answer . ", ";
-            $newQuestions .= $questions[$key]["question"] . ", ";
+            $newQuestions[] = $questions[$key]["question"];
         }
 
-        $this->answers = $newAnswers;
-        $this->questions = $newQuestions;
+        $this->answers = implode(", ", $answers);
+        $this->questions = implode(", ", $newQuestions);
         $this->save();
     }
 
-    /*
+    /**
     * Function to randomize the questions but keep the keys
+    *
+    * @param array $questions
+    *
+    * @return array
     */
     public function shuffleQuestions($questions)
     {
@@ -95,8 +98,13 @@ class Quiz extends ActiveRecordModel
         return $random;
     }
 
-    /*
+    /**
     * Function to get questions for the specified test
+    *
+    * @param string $course
+    * @param string $test
+    *
+    * @return array
     */
     public function getQuestions($course, $test)
     {
@@ -107,8 +115,13 @@ class Quiz extends ActiveRecordModel
     }
 
 
-    /*
+    /**
     * Function to get the result
+    *
+    * @param array $answers
+    * @param array $questions
+    *
+    * @return int
     */
     public function getResult($answers, $questions)
     {
@@ -123,6 +136,9 @@ class Quiz extends ActiveRecordModel
 
     /**
     * Function for converting seconds into minutes:seconds
+    *
+    *@param int $iSeconds
+    *
     * @return string
     */
     function convert($iSeconds)

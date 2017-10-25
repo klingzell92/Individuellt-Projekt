@@ -27,9 +27,14 @@ return [
             "file" => __DIR__ . "/route/loginController.php",
         ],
         [
-            // To login a user
+            // Routes for quiz
             "mount" => "quiz",
             "file" => __DIR__ . "/route/quizController.php",
+        ],
+        [
+            //Routes for the quiz sever
+            "mount" => "api",
+            "file" => __DIR__ . "/route/quizServer.php",
         ],
         [
             // Keep this last since its a catch all

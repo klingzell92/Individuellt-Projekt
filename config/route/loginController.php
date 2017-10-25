@@ -16,5 +16,11 @@ return [
             "path" => "login",
             "callable" => ["loginController", "getPostLogin"],
         ],
+        [
+            "info" => "Logout a user.",
+            "requestMethod" => null,
+            "path" => "logout",
+            "callable" => ["loginController", "logOutUser"],
+        ],
     ]
 ];

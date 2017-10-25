@@ -4406,7 +4406,7 @@
 				"question": "Här kommer en jättebra fråga8",
 				"correct": "Svar 2",
 				"alternatives": {
-					"alt1": "Svar 1",
+					"alt1": "Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1",
 					"alt2": "Svar 2"
 				}
 			},
@@ -4423,9 +4423,9 @@
 				"question": "Här kommer en jättebra fråga10",
 				"correct": "Svar 2",
 				"alternatives": {
-					"alt1": "Svar 1",
-					"alt2": "Svar 2",
-					"alt3": "Svar 3",
+					"alt1": "Svar 1 Svar 1 Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1",
+					"alt2": "Svar 2Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1",
+					"alt3": "Svar 3 Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1Svar 1",
 					"alt4": "Svar 4"
 				}
 			}
