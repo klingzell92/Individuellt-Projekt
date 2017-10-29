@@ -1,12 +1,17 @@
 <nav>
     <ul>
-    <li>
-        <span><a href="<?=$di->get("url")->create("quiz/start")?>">dbwebb quiz</a></span>
+    </li><li>
+    <li class="logo">
+        <a href="<?=$di->get("url")->create("quiz/start")?>">dbwebb quiz</a>
     </li>
     <?php
     if ($di->get("session")->has("user")) {
     ?>
-    <li style="float:right"><a class="active" href="<?=$di->get("url")->create("logout")?>">Logga ut</a></li>
+    <li class="logout"><a class="active" href="<?=$di->get("url")->create("logout")?>">Logga ut</a></li>
+    <?php
+    } else {
+    ?>
+    <li></li>
     <?php
     }
     ?>

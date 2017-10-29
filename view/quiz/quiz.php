@@ -36,8 +36,8 @@ var x = setInterval(function() {
   // If the count down is finished, submit the form
   if (distance < 2) {
     clearInterval(x);
-    //document.getElementById("quiz").action = "<?php echo $postHandler;?>";
-    //document.forms['quiz'].submit();
+    document.getElementById("quiz").action = "<?php echo $postHandler;?>";
+    document.forms['quiz'].submit();
   }
 }, 10);
 </script>

@@ -34,7 +34,7 @@ class PageRender implements PageRenderInterface, InjectionAwareInterface
         $view->add("include/footer", [], "footer");
 
         // Add layout, render it, add to response and send.
-        $view->add("default1/layout", $data, "layout");
+        $view->add("layout/layout", $data, "layout");
         $body = $view->renderBuffered("layout");
         $this->di->get("response")->setBody($body)
                                   ->send($status);

@@ -1,5 +1,7 @@
 /** A css file */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 html {
   background-color: #424242;
 }
@@ -7,6 +9,7 @@ html {
 body{
   background-color: white;
   margin: 0;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .main-wrap {
@@ -37,6 +40,7 @@ nav ul{
     background-color: #333;
 }
 nav li {
+    width: 30%;
     display: inline-block;
 }
 nav li a {
@@ -63,7 +67,7 @@ nav li a:hover {
 }
 
 .htmlform {
-    border: 1px solid black;
+    border: 1px solid #bfbfbf;
     border-radius: 4px;
     padding: 1em;
     margin-top: 1em;
@@ -79,36 +83,49 @@ nav li a:hover {
 }
 
 .input {
-    height: 2em;
     width: 100%;
-    border: 1px solid black;
-    border-radius: 3px;
-    text-align: center;
-}
-
-.button {
-    width: 100%;
-    background-color: white;
-    border: 1px solid;
-    border-radius: 3px;
-    padding: 8px;
-    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 0.6em;
     color: black;
 }
 
-.button:hover {
-    background: #e6e6e6;
+#form-element-submit {
+    width: 30%;
+    background-color: #2aa198;
+    border-color: #2aa198;
+    color: white;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .course {
     width: 25%;
     display: inline-block;
     text-align: center;
+    margin-bottom: 2em;
 }
 
 .test {
     text-decoration: none;
-    color: grey;
+    color: #93c54b;
     display: grid;
 }
 
@@ -162,18 +179,33 @@ nav li a:hover {
 }
 
 .navButton {
-    width: 20%;
-    background-color: white;
-    border: 1px solid;
-    border-radius: 3px;
-    padding: 8px;
-    text-decoration: none;
-    color: black;
+    width: 30%;
+    background-color: #2aa198;
+    border-color: #2aa198;
+    color: white;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
     cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-.navButton:hover {
-    background: #e6e6e6;
+.show a{
+    text-decoration: none;
 }
 
 .quizTime{
@@ -208,6 +240,8 @@ nav li a:hover {
     float: left;
     width: 100%;
     border-bottom: 1px solid #AAAAAA;
+    box-sizing: inherit;
+    -webkit-box-sizing: inherit;
 }
 
 .question ul li input[type=radio]{
@@ -263,6 +297,10 @@ nav li a:hover {
 	-webkit-transition: background 0.25s linear;
 }
 
+.question a {
+    text-decoration: none;
+}
+
 input[type=radio]:checked ~ .check {
   border: 5px solid #009999;
 }
@@ -273,4 +311,13 @@ input[type=radio]:checked ~ .check::before{
 
 input[type=radio]:checked ~ label{
   color: black;
+}
+
+@media screen and (max-width: 550px) {
+    .course {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-bottom: 1em;
+    }
 }

@@ -18,6 +18,6 @@ foreach ($answers as $key => $answer) {
 }
 ?>
     </ul>
-    <a href="<?=$index?>" class="navButton">Index</a>
+    <a href="<?=$index?>" class="navButton">Start</a>
     </div>
 </div>
