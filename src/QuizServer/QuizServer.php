@@ -24,11 +24,18 @@ class QuizServer implements InjectionAwareInterface
     {
         $quiz = new Quiz();
         $quiz->setDb($this->di->get("db"));
+        $decoded = [];
         $result = $quiz->findAllWhere("acronym = ?", [$user]);
+        foreach ($result as $row) {
+            foreach ($row as $key => $value) {
+                utf8_encode($value);
+            }
+            $decoded[] = $row;
+        }
+        //var_dump($decoded);
         $convertResult = json_encode($result);
         $json = json_decode($convertResult);
-
-        return $json;
+        return $result;
     }
 
     /**

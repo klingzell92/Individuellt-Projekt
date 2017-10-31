@@ -208,6 +208,10 @@ nav li a:hover {
     text-decoration: none;
 }
 
+.stop a{
+    text-decoration: none;
+}
+
 .quizTime{
     font: 20px arial;
     font-weight: bold;

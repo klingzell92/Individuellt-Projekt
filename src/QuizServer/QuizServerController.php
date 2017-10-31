@@ -36,7 +36,6 @@ class QuizServerController implements InjectionAwareInterface
     }
 
 
-
     /**
      * Get all tests for a user from a specific course
      *
