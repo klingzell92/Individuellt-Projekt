@@ -96,5 +96,4 @@ class QuizServer implements InjectionAwareInterface
         }
         return null;
     }
-
 }

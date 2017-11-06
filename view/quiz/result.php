@@ -1,6 +1,6 @@
 <?php
 $index = $di->get("url")->create("quiz/start");
- ?>
+?>
 
 <div class="main">
     <div class="show">

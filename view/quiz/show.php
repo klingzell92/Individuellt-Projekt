@@ -4,7 +4,7 @@ $postHandler = $di->get("url")->create("quiz/handle");
 $countTo = $session->get("quizCountTo");
 $index = $di->get("url")->create("quiz/start");
 $previous = $di->get("url")->create("quiz/previous");
- ?>
+?>
 
  <script type="text/javascript">
 

@@ -28,10 +28,7 @@ class Quiz extends ActiveRecordModel
     public $times_test_done;
     public $questions;
     public $answers;
-    public $created;
-    public $updated;
-    public $deleted;
-    public $active;
+    public $date;
 
 
     /**
@@ -72,7 +69,8 @@ class Quiz extends ActiveRecordModel
         foreach ($answers as $key => $answer) {
             $newQuestions[] = $questions[$key]["question"];
         }
-
+        date_default_timezone_set('Europe/Stockholm');
+        $this->date = date('Y-m-d H:i:s', time());
         $this->answers = implode(", ", $answers);
         $this->questions = implode(", ", $newQuestions);
         $this->save();
@@ -146,6 +144,4 @@ class Quiz extends ActiveRecordModel
         $min = intval($iSeconds / 60);
         return $min . ':' . str_pad(($iSeconds % 60), 2, '0', STR_PAD_LEFT);
     }
-
-
 }

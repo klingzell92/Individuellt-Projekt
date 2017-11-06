@@ -7,8 +7,7 @@ $pagination = $session->get("pagination");
 $page = $session->get("page");
 $next = $di->get("url")->create("quiz/next");
 $previous = $di->get("url")->create("quiz/previous");
-
- ?>
+?>
 
 <script type="text/javascript">
 
@@ -54,9 +53,9 @@ var x = setInterval(function() {
     <ul>
 <?php
 foreach ($content[$pagination[$page]]["alternatives"] as $alt => $alternative) {
- ?>
- <?php
-if ($session->has("answers") && array_key_exists($pagination[$page], $session->get("answers")) && $session->get("answers")[$pagination[$page]] == $alternative) {
+?>
+<?php
+    if ($session->has("answers") && array_key_exists($pagination[$page], $session->get("answers")) && $session->get("answers")[$pagination[$page]] == $alternative) {
 ?>
     <li>
         <input type="radio" name="<?= $pagination[$page] ?>" id="<?= $alternative ?>" value="<?= $alternative ?>" checked>
@@ -64,16 +63,17 @@ if ($session->has("answers") && array_key_exists($pagination[$page], $session->g
         <div class="check"><div class="inside"></div></div>
     </li>
 <?php
-} else {
- ?>
+    } else {
+?>
     <li>
         <input type="radio" name="<?= $pagination[$page] ?>" id="<?= $alternative ?>" value="<?= $alternative ?>">
         <label for="<?= $alternative ?>"><?= $alternative ?></label>
         <div class="check"><div class="inside"></div></div>
     </li>
 <?php
-}
-}?>
+        }
+    }
+?>
 </ul>
 <?php
 if (!$session->has("answers") || !array_key_exists($pagination[$page], $session->get("answers"))) {

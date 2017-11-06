@@ -41,10 +41,7 @@ CREATE TABLE Quiz (
     `times_test_done` INTEGER NOT NULL,
     `questions` TEXT NOT NULL,
     `answers` TEXT NOT NULL,
-    `created` DATETIME,
-    `updated` DATETIME,
-    `deleted` DATETIME,
-    `active` DATETIME 
+    `date` DATETIME
 ) ENGINE INNODB CHARACTER SET utf8 COLLATE utf8_swedish_ci;
 
 SELECT * FROM Quiz;

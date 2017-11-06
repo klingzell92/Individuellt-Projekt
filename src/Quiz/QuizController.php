@@ -19,7 +19,7 @@ class QuizController implements InjectionAwareInterface
     use ConfigureTrait;
 
     /**
-     * Render index page
+     * Render index page with links to all the tests
      *
      *
      * @return void
@@ -43,9 +43,10 @@ class QuizController implements InjectionAwareInterface
         }
     }
     /**
-     * Render index page
+     * Show a test
      *
-     *
+     * @param string $course
+     * @param string $test
      * @return void
      */
     public function showTest($course, $test)
@@ -140,8 +141,10 @@ class QuizController implements InjectionAwareInterface
     }
 
     /**
-     * Show next question in quiz
+     * Show previous question in quiz
      *
+     *  @param string $course
+     *  @param string $test
      *
      * @return void
      */
@@ -203,6 +206,14 @@ class QuizController implements InjectionAwareInterface
         }
     }
 
+    /**
+    * Show the answers before student submits the test
+    *
+    * @param string $course
+    * @param string $test
+    *
+    * @return void
+    */
     public function showAnswers($course, $test)
     {
         $session = $this->di->get("session");
@@ -231,6 +242,14 @@ class QuizController implements InjectionAwareInterface
         }
     }
 
+    /**
+    * Show the result on the test with all the answers
+    *
+    * @param string $course
+    * @param string $test
+    *
+    * @return void
+    */
     public function showResult($user, $course, $test)
     {
         $session = $this->di->get("session");
